@@ -8,10 +8,13 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 _moveDirection;
     private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
+    
 
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -20,7 +23,9 @@ public class PlayerController : MonoBehaviour
         _moveDirection.x *= moveSpeed;
         _moveDirection.y *= moveSpeed;
 
-        //TODO Animator
+
+        _animator.SetFloat(AnimatorHash.MoveSpeed, Mathf.Abs(_moveDirection.x) + Mathf.Abs(_moveDirection.y));
+    
     }
 
     private void FixedUpdate()

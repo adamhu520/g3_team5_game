@@ -15,7 +15,7 @@ D:/project/g3_team5_game/Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-10591
+2422
 Successfully changed project path to: D:/project/g3_team5_game/Project
 D:/project/g3_team5_game/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/project/g3_team5_game/Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [43892] Host "[IP] 10.122.0.240 [Port] 0 [Flags] 2 [Guid] 3118086602 [EditorId] 3118086602 [Version] 1048832 [Id] WindowsEditor(7,极光pro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [47936] Host "[IP] 10.122.0.240 [Port] 0 [Flags] 2 [Guid] 3262574247 [EditorId] 3262574247 [Version] 1048832 [Id] WindowsEditor(7,极光pro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [43892] Host "[IP] 10.122.0.240 [Port] 0 [Flags] 2 [Guid] 3118086602 [EditorId] 3118086602 [Version] 1048832 [Id] WindowsEditor(7,极光pro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [47936] Host "[IP] 10.122.0.240 [Port] 0 [Flags] 2 [Guid] 3262574247 [EditorId] 3262574247 [Version] 1048832 [Id] WindowsEditor(7,极光pro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 29.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 23.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
 [Subsystems] Discovering subsystems at path F:/unity/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'F:/unity/2022.3.17f1c1/Editor/Data/Managed'
 Mono path[1] = 'F:/unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006652 seconds.
-- Loaded All Assemblies, in  0.352 seconds
+Registered in 0.005211 seconds.
+- Loaded All Assemblies, in  0.306 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.297 seconds
-Domain Reload Profiling: 647ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 543ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (124ms)
-		LoadAssemblies (126ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (94ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (109ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (103ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (298ms)
+	FinalizeReload (239ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (235ms)
+		SetupLoadedEditorAssemblies (186ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (162ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 647ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.653 seconds
-Refreshing native plugins compatible for Editor in 7.62 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.574 seconds
-Domain Reload Profiling: 1218ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1147ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (336ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (308ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (129ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (574ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (545ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (425ms)
+		SetupLoadedEditorAssemblies (386ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 12.41 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 7.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (61.4 KB). Loaded Objects now: 4479.
+Unloading 4019 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (61.0 KB). Loaded Objects now: 4480.
 Memory consumption went from 149.2 MB to 149.1 MB.
-Total: 3.058000 ms (FindLiveObjects: 0.213400 ms CreateObjectMapping: 0.105000 ms MarkObjects: 2.594200 ms  DeleteObjects: 0.144100 ms)
+Total: 3.253200 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.211700 ms MarkObjects: 2.627600 ms  DeleteObjects: 0.146600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,9 +183,153 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 257756.581732 seconds.
-  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/full tilemap.png
-  artifactKey: Guid(8d510b71ac566c0418cd4f3a582c1c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/full tilemap.png using Guid(8d510b71ac566c0418cd4f3a582c1c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815b6a15208a736f925de8423b7a07d0') in 0.191169 seconds
+  Time since last request: 281986.971091 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_spritesheet.png
+  artifactKey: Guid(946e43f69a227424986da13305561e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_spritesheet.png using Guid(946e43f69a227424986da13305561e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9211607fa7ca2e12b2c7552fbea944') in 0.085807 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 56
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_anim_f3.png
+  artifactKey: Guid(a6a6e5f70a476724191d54557e633362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_anim_f3.png using Guid(a6a6e5f70a476724191d54557e633362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8710831f358065a84d6d65629efc97b2') in 0.012269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_anim_f0.png
+  artifactKey: Guid(9413d7b609fe3bf4daebd2e89526f5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_anim_f0.png using Guid(9413d7b609fe3bf4daebd2e89526f5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb8461c226cc9dab671ca93abd0c941') in 0.008810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_idle_anim_f1.png
+  artifactKey: Guid(7a2c37f18fa561c4f8f1b777b8894bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_idle_anim_f1.png using Guid(7a2c37f18fa561c4f8f1b777b8894bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbc68418aceed7b22bd902384bc5450') in 0.008828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_idle_spritesheet.png
+  artifactKey: Guid(1c18e5479efcbb7438fad16a10114ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_idle_spritesheet.png using Guid(1c18e5479efcbb7438fad16a10114ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2643d42d5f1dedd86c5e2e8970576915') in 0.008526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_idle_anim_f5.png
+  artifactKey: Guid(ad546e8e22dccff4fa0377807cd98306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_idle_anim_f5.png using Guid(ad546e8e22dccff4fa0377807cd98306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea4c66f534e9180226db60e54d4af09') in 0.009822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_knife.png
+  artifactKey: Guid(7be1be85fe7bea54f8789ccec785a404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_knife.png using Guid(7be1be85fe7bea54f8789ccec785a404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48c39990588f2c27cbf543fe6144770') in 0.009898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_idle_anim_f4.png
+  artifactKey: Guid(e4e61082cea70fb4191e6a6dfa99e734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_idle_anim_f4.png using Guid(e4e61082cea70fb4191e6a6dfa99e734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b699ff95298756f3863426357a6ec371') in 0.009790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_anim_f2.png
+  artifactKey: Guid(fa7c43107bb70d64ab76a40166c21e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_anim_f2.png using Guid(fa7c43107bb70d64ab76a40166c21e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dee3b29038efaf7597504b21443dfce') in 0.009700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_anim_f4.png
+  artifactKey: Guid(2222b6e090bdce74c8837759aa6a6153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/goblin/goblin_run_anim_f4.png using Guid(2222b6e090bdce74c8837759aa6a6153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3349f5ae837d0866229ed40e099e700') in 0.008951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/bag_coins.png
+  artifactKey: Guid(d1cf4eb4e8f69de41ade5dc7baef4c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/bag_coins.png using Guid(d1cf4eb4e8f69de41ade5dc7baef4c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ec77e728a32145bee2ac343e50feb2') in 0.009352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.276916 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f1.png
+  artifactKey: Guid(613650fa17d9e0443aed5a5034b46017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f1.png using Guid(613650fa17d9e0443aed5a5034b46017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf1b87fce0fd1146d782b0681b1035d') in 0.010792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_run_anim_f1.png
+  artifactKey: Guid(906a95dd9836d464d86478085e3b0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_run_anim_f1.png using Guid(906a95dd9836d464d86478085e3b0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272541ae7da4511825e747e87de1fdef') in 0.011273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_run_anim_f2.png
+  artifactKey: Guid(733684e9ebab6e74c86a9dbbf2a34add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_run_anim_f2.png using Guid(733684e9ebab6e74c86a9dbbf2a34add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390246632dd718bc93caec522494203e') in 0.012699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f5.png
+  artifactKey: Guid(ddb31e029663cac43a79d43982b0f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f5.png using Guid(ddb31e029663cac43a79d43982b0f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d8b58fdf792767eebdc3aff81e408f') in 0.012578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f3.png
+  artifactKey: Guid(6270015a7dbbe8844be57fa751f6490f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f3.png using Guid(6270015a7dbbe8844be57fa751f6490f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55226aa6ccfedfa9494bdeff8df01b69') in 0.014030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_spritesheet.png
+  artifactKey: Guid(4253854344c0b86419d84f5c0f2d510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_spritesheet.png using Guid(4253854344c0b86419d84f5c0f2d510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01fa0e4c19d85ccd827a227609b0ff0') in 0.011477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.456360 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/flying creature/fly_anim_f1.png
+  artifactKey: Guid(b6c7fec1b8b4ff440a95a3a9e2d3d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/flying creature/fly_anim_f1.png using Guid(b6c7fec1b8b4ff440a95a3a9e2d3d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6809c9ec4b8df988c38e1838cf657874') in 0.012920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/flying creature/fly_anim_f3.png
+  artifactKey: Guid(d14d3be493be59c44b315ea611b9044d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/flying creature/fly_anim_f3.png using Guid(d14d3be493be59c44b315ea611b9044d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee03e16319be43ce41d14d224e65e48d') in 0.011726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
