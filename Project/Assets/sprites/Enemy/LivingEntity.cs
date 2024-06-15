@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 using System;
 using UnityEngine;
 
@@ -37,43 +36,3 @@ public class LivingEntity : MonoBehaviour, IDamageable
        // Destory(ps.gameObject, ps.main.duration);
     }
 }
-=======
-using System;
-using UnityEngine;
-
-public class LivingEntity : MonoBehaviour, IDamageable
-{
-    public float startHealth;
-    protected float Health { get; private set; }
-    protected bool IsDead;
-
-
-    public ParticleSystem deathParticle;
-
-    public event Action OnDeath;
-
-
-    protected virtual void Start()
-    {
-        Health = startHealth;
-    }
-    public virtual void TakeDamage(float damage)
-    {
-        Health -= damage;
-
-        if (Health > 0 || IsDead)
-        {
-            return;
-        }
-
-        IsDead = true;
-        OnDeath?.Invoke();
-        
-        Destroy(gameObject);
-
-        //ËÀÍöÌØĞ§
-        //ParticleSystem ps = Instantiate(original: deathParticle, parent: transform.position, Quaternion.identity);
-       // Destory(ps.gameObject, ps.main.duration);
-    }
-}
->>>>>>> Stashed changes
