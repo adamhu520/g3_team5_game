@@ -1091,3 +1091,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173988.824912 seconds.
+  path: Assets/sprites/fly_anim_spritesheet.png
+  artifactKey: Guid(7e9546b36ea31fa43b6ab429884f3b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/fly_anim_spritesheet.png using Guid(7e9546b36ea31fa43b6ab429884f3b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28652fde8040616c5b6a01ef7b720181') in 1.209456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.293557 seconds.
+  path: Assets/enemies/Giant Slime.prefab
+  artifactKey: Guid(72cb6c3219a17664fb25e8ae4e0b473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/Giant Slime.prefab using Guid(72cb6c3219a17664fb25e8ae4e0b473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb9ec178f7abae0a6b009ec4302a4f8') in 0.029362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 478.302151 seconds.
+  path: Assets/Scenes/Meun.unity
+  artifactKey: Guid(4560dd129d72e47419160480e64a34fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Meun.unity using Guid(4560dd129d72e47419160480e64a34fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9335549510be2b20b913e9c56193ed') in 0.004036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

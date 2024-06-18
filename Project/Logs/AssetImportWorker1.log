@@ -851,3 +851,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 177812.187289 seconds.
+  path: Assets/sprites/goblin_idle_spritesheet.png
+  artifactKey: Guid(093f1815b60aebd4f866db0f33588d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/goblin_idle_spritesheet.png using Guid(093f1815b60aebd4f866db0f33588d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b768c571b2539826783087e08db0bd') in 1.160788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.346510 seconds.
+  path: Assets/enemies/Goblin Run 1.prefab
+  artifactKey: Guid(926028783f985d64f89075f74c2b7b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/Goblin Run 1.prefab using Guid(926028783f985d64f89075f74c2b7b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3635153dd9ffb261dbadd300934730d7') in 0.029678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
