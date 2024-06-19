@@ -1,0 +1,1010 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.32f1c1 (ee11d84eef07) revision 15602136'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'zh' Physical Memory: 32625 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.32f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/g3_team5_game/Project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63110
+Successfully changed project path to: D:/g3_team5_game/Project
+D:/g3_team5_game/Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32580] Host "[IP] 192.168.31.232 [Port] 0 [Flags] 2 [Guid] 449871729 [EditorId] 449871729 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TLA8B61) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32580] Host "[IP] 192.168.31.232 [Port] 0 [Flags] 2 [Guid] 449871729 [EditorId] 449871729 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TLA8B61) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 13.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.32f1c1 (ee11d84eef07)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.32f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/g3_team5_game/Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     11996 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.32f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.32f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.32f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.32f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003099 seconds.
+- Loaded All Assemblies, in  0.335 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.150 seconds
+Domain Reload Profiling: 483ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (119ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 4.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 910ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (136.8 KB). Loaded Objects now: 4821.
+Memory consumption went from 154.8 MB to 154.6 MB.
+Total: 2.735600 ms (FindLiveObjects: 0.141600 ms CreateObjectMapping: 0.050300 ms MarkObjects: 2.448800 ms  DeleteObjects: 0.094100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/AnimatorHash.cs: 1d101cfab980fb72ab125e5b9bd7f830 -> 65b798951194fc9cd2d3a1a0c61a5043
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6124.155129 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens
+  artifactKey: Guid(61f3bb38a1cd33542bae8bf2bb95604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens using Guid(61f3bb38a1cd33542bae8bf2bb95604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1b5223b72cf8a01d59b297de78909c78') in 0.002010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077538 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/bag_coins.png
+  artifactKey: Guid(d1cf4eb4e8f69de41ade5dc7baef4c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/bag_coins.png using Guid(d1cf4eb4e8f69de41ade5dc7baef4c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7da539e45302ed32e763a79edd002c83') in 0.051152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/key_silver.png
+  artifactKey: Guid(58ef4320371375d469b7fdf402e98d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/key_silver.png using Guid(58ef4320371375d469b7fdf402e98d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8cad2b139d5024f869a908310b26c365') in 0.004633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/chest_closed_anim_f0.png
+  artifactKey: Guid(5c530e8531fe4d645999b85ee44fa246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/chest_closed_anim_f0.png using Guid(5c530e8531fe4d645999b85ee44fa246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '29206cfb2a9d3a393b6ef9ac0316cbd7') in 0.004570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/chest_closed_anim_f7.png
+  artifactKey: Guid(4651df3397fc70a4584832c9e55b6757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/chest_closed_anim_f7.png using Guid(4651df3397fc70a4584832c9e55b6757) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '92e90af16b3db044644de19651511417') in 0.003998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/bomb_anim_f8.png
+  artifactKey: Guid(eb073fb9d6d43314e908d30e7efb746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/bomb_anim_f8.png using Guid(eb073fb9d6d43314e908d30e7efb746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8c96a148405d914c73148c21975bf623') in 0.004240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/chest_closed_anim_f2.png
+  artifactKey: Guid(7672ab53d39931842850f4d16a7bee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/chest_closed_anim_f2.png using Guid(7672ab53d39931842850f4d16a7bee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fde1dff7429b56df4a4eca20bd87516c') in 0.003942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/torch_anim_f5.png
+  artifactKey: Guid(1fa5985a60fb5fa4994f3bbc741d8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/props_itens/torch_anim_f5.png using Guid(1fa5985a60fb5fa4994f3bbc741d8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd711b90dfcf4d6b9c28a3831ccd524b8') in 0.003962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.814455 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/ui (new)
+  artifactKey: Guid(f2f95cd7f28377c46aee38e9ceae6e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/ui (new) using Guid(f2f95cd7f28377c46aee38e9ceae6e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c61d253ae2e24f55ac92b2f4f3a23207') in 0.000487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.089816 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/crosshair_1.png
+  artifactKey: Guid(87f374e0c0420fb468f454fe7a3726ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/crosshair_1.png using Guid(87f374e0c0420fb468f454fe7a3726ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '173c71193e7eedd3fc6588b785d97619') in 0.005789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/pause_button.png
+  artifactKey: Guid(d9e850648a1fcc34c85db8f0d42fa9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/pause_button.png using Guid(d9e850648a1fcc34c85db8f0d42fa9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1e78495f81afbff181822d06d09bd06a') in 0.021815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/menu_button.png
+  artifactKey: Guid(c053ab1c1cd8fc94888a5eaa034e7035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/menu_button.png using Guid(c053ab1c1cd8fc94888a5eaa034e7035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e7cfe8282f29ddbb868645af0f0b7367') in 0.007247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.391845 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime
+  artifactKey: Guid(2fca15d6f3b1378429c86944e438684c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime using Guid(2fca15d6f3b1378429c86944e438684c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0a0522c59288474a917443e530232109') in 0.000459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077429 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f0.png
+  artifactKey: Guid(ed01c0c3e2ac97c4d8f6f4aac4186c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f0.png using Guid(ed01c0c3e2ac97c4d8f6f4aac4186c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9eada150ba7835273ea211e669659b05') in 0.013328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f4.png
+  artifactKey: Guid(add8162f35641db4b803d63643f97e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/slime/slime_idle_anim_f4.png using Guid(add8162f35641db4b803d63643f97e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '97ce12b64f44d94cacb1af590f4cdd1a') in 0.004393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.632606 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles
+  artifactKey: Guid(b99d76f44e2138243bf524376285c224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles using Guid(b99d76f44e2138243bf524376285c224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '05bed7e9fa301286a6526d028ffb630c') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.931942 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor
+  artifactKey: Guid(65f97ecae9459bb418d57f90da7986dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor using Guid(65f97ecae9459bb418d57f90da7986dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f3dec04cf4a87466f600fa821a80f857') in 0.000365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101162 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/door_floor.png
+  artifactKey: Guid(6d52f9df1808e9642bb5cdd9c8f6410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/door_floor.png using Guid(6d52f9df1808e9642bb5cdd9c8f6410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4c0decf2064f93f7f9c7cd56cee90787') in 0.005128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_8.png
+  artifactKey: Guid(a211c0ac50e0d7f4683c0c254ccc2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_8.png using Guid(a211c0ac50e0d7f4683c0c254ccc2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '47590a5ed8a41f6d79b1dcba6c61bead') in 0.004140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_side3.png
+  artifactKey: Guid(915723d68f5338b4ab1e8818f0e95de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_side3.png using Guid(915723d68f5338b4ab1e8818f0e95de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '43ea9458de3fee43cfe0dcfcd6c44b00') in 0.004484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_10.png
+  artifactKey: Guid(9e996b778bb12c54f889516d5e1c8efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_10.png using Guid(9e996b778bb12c54f889516d5e1c8efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd4710c8aa0e06623057cc8f6fc75ffcb') in 0.004352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_stair.png
+  artifactKey: Guid(f743b0d621876e647b27609a05dca069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_stair.png using Guid(f743b0d621876e647b27609a05dca069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '016f1d4f8b4956d37d73ffe8578932e9') in 0.003887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/spikes_anim_f1.png
+  artifactKey: Guid(a8cf129e75744ab4ebb7d6a8055823ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/spikes_anim_f1.png using Guid(a8cf129e75744ab4ebb7d6a8055823ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ffccfda20bb3de2d58457eb614d0850c') in 0.004159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/spikes_anim_f3.png
+  artifactKey: Guid(6265b4ba92b3c6d439911ea477cbf683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/spikes_anim_f3.png using Guid(6265b4ba92b3c6d439911ea477cbf683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '600036ffd6bb9d1614a3b94cc40a31c1') in 0.004989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/spikes_spritesheet.png
+  artifactKey: Guid(80439a8472e51284582f8ab822343e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/spikes_spritesheet.png using Guid(80439a8472e51284582f8ab822343e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '26996641e3f201c124fb93cfb17e293e') in 0.004701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_side.png
+  artifactKey: Guid(573126310516ea544b29682823a7524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/floor_side.png using Guid(573126310516ea544b29682823a7524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f07c6e0fa504dce427603a4ff51c547f') in 0.004118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/stair_nextlevel.png
+  artifactKey: Guid(c33f1169960a911419887ed76381070c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/floor/stair_nextlevel.png using Guid(c33f1169960a911419887ed76381070c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c85b6d3b3b3366f97577917009d1e63c') in 0.003942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.376736 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/flying creature/fly_anim_f0.png
+  artifactKey: Guid(8fd3e34720c697a4aa1670d1a1dc9b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/enemies/flying creature/fly_anim_f0.png using Guid(8fd3e34720c697a4aa1670d1a1dc9b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '797d9e7d709ba8d5e659b3f7b24d3994') in 0.012012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.881093 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f0.png
+  artifactKey: Guid(acc37ab0cfd3601429a498fd2be0c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f0.png using Guid(acc37ab0cfd3601429a498fd2be0c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ab042d6e4d405cd81a16745025e2f883') in 0.007698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f9.png
+  artifactKey: Guid(58554a41ff24be94e8514b738471e782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f9.png using Guid(58554a41ff24be94e8514b738471e782) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '33eb91eca672d4a850c254d5cee1cace') in 0.005794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f8.png
+  artifactKey: Guid(2e14622c5d525214d93ae7e05c06727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f8.png using Guid(2e14622c5d525214d93ae7e05c06727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1ab07cd1dab4a22710e97375dd47d021') in 0.005422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_bottom_left.png
+  artifactKey: Guid(2d2d19f05913a8c4f99a13f4b37ada97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_bottom_left.png using Guid(2d2d19f05913a8c4f99a13f4b37ada97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd4c8557db65fab982f0870b0ea04d157') in 0.004704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_side_left .png
+  artifactKey: Guid(6234d7ef8387a09479b3e0443ba81c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_side_left .png using Guid(6234d7ef8387a09479b3e0443ba81c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd5ea30501985fbfb6edfa8afe3a95163') in 0.019761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_crack.png
+  artifactKey: Guid(971bb18b9a406034dbcd75ac4fde4778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_crack.png using Guid(971bb18b9a406034dbcd75ac4fde4778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9ecaf40e9c022e0349e3572312e8d52e') in 0.032296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_2.png
+  artifactKey: Guid(a40948a2eea97a648a8961458ad4951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_2.png using Guid(a40948a2eea97a648a8961458ad4951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8977bc915a1940afaf3f5c0da12477f6') in 0.019534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f7.png
+  artifactKey: Guid(06d3a0b32b9029b44924013a6caf90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f7.png using Guid(06d3a0b32b9029b44924013a6caf90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '56ce4ce50c5e7003a2e2aff9af359697') in 0.027644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_bottom_right.png
+  artifactKey: Guid(3d19198aa1f0d7f4b90a8ff4db4e0af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_bottom_right.png using Guid(3d19198aa1f0d7f4b90a8ff4db4e0af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f16d1eeedc20e75177570dfa10475dbb') in 0.034745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_top_inner_left.png
+  artifactKey: Guid(3f6090810979df34699377f6ee7c2d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_top_inner_left.png using Guid(3f6090810979df34699377f6ee7c2d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4ec9affb568df7e227b9c7182de7c1e1') in 0.021417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_top_inner_right_2.png
+  artifactKey: Guid(fb95c5211ee92b44fafe08503527a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/wall_top_inner_right_2.png using Guid(fb95c5211ee92b44fafe08503527a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '405ad386c2cf32e367edffad2cb4f403') in 0.039054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_spritesheet.png
+  artifactKey: Guid(d3744105bb0376a48bf1c3c005e136a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_spritesheet.png using Guid(d3744105bb0376a48bf1c3c005e136a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'beee6a0ceaaa15b9fd2ae938da46ab5c') in 0.033918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f6.png
+  artifactKey: Guid(53c36d68a81e1344cb56b03bc19e331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/tiles/wall/door_anim_opening_f6.png using Guid(53c36d68a81e1344cb56b03bc19e331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3d41c0362abd6b1fc69d88867e64c177') in 0.022053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.390746 seconds.
+  path: Packages/com.unity.2d.animation
+  artifactKey: Guid(bb5c94055a953b6081dfc49350569eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation using Guid(bb5c94055a953b6081dfc49350569eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b9f83115ff1cf4738ff55ae0d7ae8c87') in 0.000328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088142 seconds.
+  path: Packages/com.unity.2d.animation/package.json
+  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '245e79321353676cf447203a87a17793') in 0.001089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.962860 seconds.
+  path: Packages/com.unity.2d.animation/Tests
+  artifactKey: Guid(04094496a840e4b66a9207270b8d6e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests using Guid(04094496a840e4b66a9207270b8d6e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '88fe27cfb74f0188da5ee783732f83fc') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.938793 seconds.
+  path: Packages/com.unity.2d.animation/Tests/Editor
+  artifactKey: Guid(b9da5ea5902f0ed42a2acecf3332a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests/Editor using Guid(b9da5ea5902f0ed42a2acecf3332a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0d7a23e4f3b76bd128bd7c3c71795a1c') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.109428 seconds.
+  path: Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef
+  artifactKey: Guid(ba283300490772f4f8d1f69efcb7c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef using Guid(ba283300490772f4f8d1f69efcb7c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0af2bd090bfa47e06d5e8aa2d4ad7cde') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 487.652120 seconds.
+  path: Assets/prefabs/enemy_afterdead_explosion_anim_spritesheet.png
+  artifactKey: Guid(616e2f1603076b040ac6622b04968d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/enemy_afterdead_explosion_anim_spritesheet.png using Guid(616e2f1603076b040ac6622b04968d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dbcffa4ee8ab5ee3e1e1a6eab04eacbc') in 0.005983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 109.505440 seconds.
+  path: Assets/prefabs/enemy_afterdead_explosion_anim_spritesheet.png
+  artifactKey: Guid(616e2f1603076b040ac6622b04968d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/enemy_afterdead_explosion_anim_spritesheet.png using Guid(616e2f1603076b040ac6622b04968d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '55bcc6bd6d08a58bb7cc0fe0977c5871') in 0.041842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 20.850756 seconds.
+  path: Assets/prefabs/explosion_anim_spritesheet.png
+  artifactKey: Guid(1626314bd5d0a514aa1e14f9d0ef67af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/explosion_anim_spritesheet.png using Guid(1626314bd5d0a514aa1e14f9d0ef67af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8a6ea903a4ecf820c199184931129a02') in 0.004323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 59.983599 seconds.
+  path: Assets/prefabs/explosion_anim_spritesheet.png
+  artifactKey: Guid(1626314bd5d0a514aa1e14f9d0ef67af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/explosion_anim_spritesheet.png using Guid(1626314bd5d0a514aa1e14f9d0ef67af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e47e1f2b0fc3d7c7bf8edec82d20672c') in 0.028885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 91.490089 seconds.
+  path: Assets/animtations/enemy_death.anim
+  artifactKey: Guid(d5ab7e789d0c1764ca65e3044bb7cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animtations/enemy_death.anim using Guid(d5ab7e789d0c1764ca65e3044bb7cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b1a8b82e5e6b3d2facf7e4575386d65e') in 0.001123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 520.237816 seconds.
+  path: Assets/enemies/Giant Slime.prefab
+  artifactKey: Guid(72cb6c3219a17664fb25e8ae4e0b473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/Giant Slime.prefab using Guid(72cb6c3219a17664fb25e8ae4e0b473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e4129bc0ec5873bed39fc15c0bc4d1fd') in 0.037176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 46.839249 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/Player.controller
+  artifactKey: Guid(8d472efa5ae3c684f8d8bf1dfa70d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/Player.controller using Guid(8d472efa5ae3c684f8d8bf1dfa70d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c76ada8fa1f273caacace3de03eb54a7') in 0.001001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 58.953531 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/Player.controller
+  artifactKey: Guid(8d472efa5ae3c684f8d8bf1dfa70d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/Player.controller using Guid(8d472efa5ae3c684f8d8bf1dfa70d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '35a902f6a583bdddf33356b718bb9f24') in 0.001165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 8.315927 seconds.
+  path: Assets/animtations/Player.controller
+  artifactKey: Guid(470cc3378b8cca840a7bec3cd7eea36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animtations/Player.controller using Guid(470cc3378b8cca840a7bec3cd7eea36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c2def62a3ba118307461a367cd71fca6') in 0.000865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.480358 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/enemy_death Controller.controller
+  artifactKey: Guid(8d472efa5ae3c684f8d8bf1dfa70d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/enemy_death Controller.controller using Guid(8d472efa5ae3c684f8d8bf1dfa70d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a6dfd9627ae38d15581f6d5f5e121405') in 0.001012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 23.410632 seconds.
+  path: Assets/animtations/enemy_death.anim
+  artifactKey: Guid(137374a68def9254887e0f6ddf1dd4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animtations/enemy_death.anim using Guid(137374a68def9254887e0f6ddf1dd4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0aac8a222f30514c7322bcc9292290c6') in 0.000822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.623674 seconds.
+  path: Assets/animtations/assault walk.anim
+  artifactKey: Guid(8caf97c0d6f05b74185850b29f48782d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animtations/assault walk.anim using Guid(8caf97c0d6f05b74185850b29f48782d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2eb718794e1175519f9979c494784d30') in 0.001437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.015066 seconds.
+  path: Assets/animtations/assault idle.anim
+  artifactKey: Guid(2293e2809f6b62446936ef5bb2bc4079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animtations/assault idle.anim using Guid(2293e2809f6b62446936ef5bb2bc4079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'eec119a510e35da42fce7c9545f860a1') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.086308 seconds.
+  path: Assets/animtations/Giant Slime run.anim
+  artifactKey: Guid(e3888d895c5c9f74aa5e4b0a040d3375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animtations/Giant Slime run.anim using Guid(e3888d895c5c9f74aa5e4b0a040d3375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2f2c2b0bd5bcb1cd99c53ba36567d84d') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 70.563894 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/explosion_anim_f0.controller
+  artifactKey: Guid(9a57163923e2aef4ab77b89123a76125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/explosion_anim_f0.controller using Guid(9a57163923e2aef4ab77b89123a76125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8efffa222ec09303db3544d5bb3bbf66') in 0.000921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.061814 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/knight_death Controller.controller
+  artifactKey: Guid(9a57163923e2aef4ab77b89123a76125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/knight_death Controller.controller using Guid(9a57163923e2aef4ab77b89123a76125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5ae6d9f45f2ee82c736e40aafbad0679') in 0.001048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 60.758404 seconds.
+  path: Assets/animtations/Player 1.controller
+  artifactKey: Guid(883f4bf7d537bbf4a9fbeb4ee2c180cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animtations/Player 1.controller using Guid(883f4bf7d537bbf4a9fbeb4ee2c180cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e77fe270af18b4931edb5571dd16ee72') in 0.001136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 155.579016 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/enemy_afterdead_explosion_anim_f0.controller
+  artifactKey: Guid(1098d1b41196e724082f0f628207ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/enemy_afterdead_explosion_anim_f0.controller using Guid(1098d1b41196e724082f0f628207ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5254fde13dc1607adb052b244fc0f50a') in 0.000980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.852195 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/enemy_death Controller.controller
+  artifactKey: Guid(1098d1b41196e724082f0f628207ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/enemy_death Controller.controller using Guid(1098d1b41196e724082f0f628207ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd49ef820abd9b2a139242b7db4568b39') in 0.001041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.358643 seconds.
+  path: Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/enemy_death.anim
+  artifactKey: Guid(83e6d93d18f57294aaef397e045e7652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/v1.1 dungeon crawler 16X16 pixel pack/effects (new)/enemy_death.anim using Guid(83e6d93d18f57294aaef397e045e7652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f91612c5bd04f01c7ef9f6ebea840d99') in 0.000859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.519728 seconds.
+  path: Assets/prefabs/Player/knight.prefab
+  artifactKey: Guid(20ca9feb0a0d6a14cb3363ab9a392e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player/knight.prefab using Guid(20ca9feb0a0d6a14cb3363ab9a392e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4622f594a299e53616156181dc582467') in 0.014980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 5.779959 seconds.
+  path: Assets/enemies/knight_death_explosion.prefab
+  artifactKey: Guid(19ebad8e5fc373b4f9b701b48cbb001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/knight_death_explosion.prefab using Guid(19ebad8e5fc373b4f9b701b48cbb001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1ff8935e7fc11bc2d855d7a85262a917') in 0.006944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.057125 seconds.
+  path: Assets/enemies/enemy_death_explosion.prefab
+  artifactKey: Guid(6ee1c41415055ac4fb15c8ec81f1f76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/enemy_death_explosion.prefab using Guid(6ee1c41415055ac4fb15c8ec81f1f76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4b95eb2a0aa60e76d96569f819d2b4ee') in 0.005963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 270.829222 seconds.
+  path: Assets/Green Death Particle.prefab
+  artifactKey: Guid(f2accf878853ecd4e880bcb790159951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Green Death Particle.prefab using Guid(f2accf878853ecd4e880bcb790159951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '40b4de7e2c9974d3767e2be7cc2ee154') in 0.027821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 6.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.765 seconds
+Domain Reload Profiling: 1149ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (766ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (267ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4330 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (108.6 KB). Loaded Objects now: 4863.
+Memory consumption went from 152.2 MB to 152.1 MB.
+Total: 2.081100 ms (FindLiveObjects: 0.146400 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.817200 ms  DeleteObjects: 0.061300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/AnimatorHash.cs: 1d101cfab980fb72ab125e5b9bd7f830 -> 65b798951194fc9cd2d3a1a0c61a5043
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.302 seconds
+Refreshing native plugins compatible for Editor in 6.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.658 seconds
+Domain Reload Profiling: 955ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (658ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (250ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4331 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (107.7 KB). Loaded Objects now: 4879.
+Memory consumption went from 152.4 MB to 152.3 MB.
+Total: 1.994900 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.715900 ms  DeleteObjects: 0.052900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/AnimatorHash.cs: 1d101cfab980fb72ab125e5b9bd7f830 -> 65b798951194fc9cd2d3a1a0c61a5043
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 585.898404 seconds.
+  path: Assets/ThirdParty
+  artifactKey: Guid(355cd0e8af3b53a4093690adfa68c186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty using Guid(355cd0e8af3b53a4093690adfa68c186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ebc95a2afc5a2a8696fc11d5dc2976e2') in 0.002697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.791816 seconds.
+  path: Assets/sprites/Blood Splatter.gif
+  artifactKey: Guid(c16a64bec56a09c489674c088dc8fb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Blood Splatter.gif using Guid(c16a64bec56a09c489674c088dc8fb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3eb3d967a1b6b1f2069e94e57fdae81f') in 0.036135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3

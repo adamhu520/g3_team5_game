@@ -38,6 +38,8 @@ public class Beetle : LivingEntity
     {
         if (target == null)
         {
+            aiPath.destination = transform.position;
+            _animator.SetBool(id: AnimatorHash.IsMoving, value: false);
             return;
         }
 
@@ -45,7 +47,7 @@ public class Beetle : LivingEntity
         if (aiPath.reachedDestination)
         {
             //Hit player
-            _animator.SetBool(id: AnimatorHash1.IsMoving, value: false);
+            _animator.SetBool(id: AnimatorHash.IsMoving, value: false);
             if (Time.time > _lastHit + 1 / hitRate)
             {
                 Hit(); 
@@ -55,7 +57,7 @@ public class Beetle : LivingEntity
         }
         else
         {
-            _animator.SetBool(id: AnimatorHash1.IsMoving, value: true);
+            _animator.SetBool(id: AnimatorHash.IsMoving, value: true);
         }
     }
 

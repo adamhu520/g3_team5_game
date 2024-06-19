@@ -32,7 +32,11 @@ public class LivingEntity : MonoBehaviour, IDamageable
         Destroy(gameObject);
 
         //À¿ÕˆÃÿ–ß
-        //ParticleSystem ps = Instantiate(original: deathParticle, parent: transform.position, Quaternion.identity);
-       // Destory(ps.gameObject, ps.main.duration);
+        if (deathParticle == null)
+        {
+            Debug.LogError(message: "Can't find death particle");
+        }
+        ParticleSystem ps = Instantiate(original: deathParticle, transform.position, Quaternion.identity);
+        Destroy(ps.gameObject, ps.main.duration);
     }
 }
