@@ -14,7 +14,11 @@ TagManager:
   - Enemy
   - Desstructable
   - Obstacle
+<<<<<<< Updated upstream
   - Player
+=======
+  - Bullet
+>>>>>>> Stashed changes
   - 
   - 
   - 
