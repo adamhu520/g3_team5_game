@@ -28,7 +28,9 @@ public class Bullet : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        Instantiate(explosionRrefab, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        GameObject exp = ObjectPool.Instance.GetObject(explosionRrefab);
+        exp.transform.position = transform.position;
+
+        ObjectPool.Instance.PushObject(gameObject);
     }
 }
