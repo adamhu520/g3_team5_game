@@ -62,17 +62,24 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\AnimatorHash.cs" />
     <Compile Include="Assets\sprites\wave\waveManager.cs" />
+    <Compile Include="Assets\sprites\testing\GameTesting.cs" />
     <Compile Include="Assets\sprites\wave\wave.cs" />
+    <Compile Include="Assets\scripts\pistol.cs" />
     <Compile Include="Assets\sprites\Enemy\IDamageable.cs" />
+    <Compile Include="Assets\sprites\Player\weaponSystem.cs" />
     <Compile Include="Assets\scripts\AimController.cs" />
     <Compile Include="Assets\sprites\Enemy\LivingEntity.cs" />
-    <Compile Include="Assets\Player\weaponSystem.cs" />
+    <Compile Include="Assets\scripts\Bullet.cs" />
+    <Compile Include="Assets\scripts\BulletShell.cs" />
+    <Compile Include="Assets\sprites\AnimatorHash.cs" />
     <Compile Include="Assets\UI\MeunForm.cs" />
     <Compile Include="Assets\sprites\Enemy\WoodCreat.cs" />
-    <Compile Include="Assets\sprites\Guns\AnimatorHash.cs" />
+    <Compile Include="Assets\scripts\Explosion.cs" />
+    <Compile Include="Assets\sprites\PopupText.cs" />
+    <Compile Include="Assets\sprites\Player\PlayerController.cs" />
+    <Compile Include="Assets\sprites\ResourceManager.cs" />
+    <Compile Include="Assets\sprites\Player\Player.cs" />
     <Compile Include="Assets\sprites\Enemy\Beetle.cs" />
-    <Compile Include="Assets\Player\Player.cs" />
-    <Compile Include="Assets\Player\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

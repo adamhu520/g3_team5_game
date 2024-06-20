@@ -38,6 +38,8 @@ public class Beetle : LivingEntity
     {
         if (target == null)
         {
+            aiPath.destination = transform.position;
+            _animator.SetBool(id: _AnimatorHash.IsMoving, value: false);
             return;
         }
 
@@ -45,32 +47,30 @@ public class Beetle : LivingEntity
         if (aiPath.reachedDestination)
         {
             //Hit player
-            _animator.SetBool(id: AnimatorHash1.IsMoving, value: false);
-            if (Time.time > _lastHit + 1 / hitRate)
+            _animator.SetBool(id: _AnimatorHash.IsMoving, value: false);
+            if (Time.time > _lastHit +1 / hitRate)
             {
-                Hit(); 
                 _lastHit = Time.time;
-
+                
+                Hit();
+            
             }
         }
         else
         {
-            _animator.SetBool(id: AnimatorHash1.IsMoving, value: true);
+            _animator.SetBool(id: _AnimatorHash.IsMoving, value: true);
         }
     }
-
+    
     private void Hit()
     {
         Vector3 selfPosition = transform.position;
-        // Direction to target
-        Vector3 targetDirection = (target.position - selfPosition).normalized;
-        RaycastHit2D hit2D = Physics2D.Raycast(origin: (Vector2)selfPosition, (Vector2)targetDirection, aiPath.endReachedDistance + 2.0f, whatToHit);
-        if (hit2D.collider !=  null)
+        Vector3 targetDerection = (target.position - selfPosition).normalized;
+        RaycastHit2D hit2D = Physics2D.Raycast(origin: selfPosition, (Vector2)targetDerection, distance: aiPath.endReachedDistance + 2.0f, (int)whatToHit);
+        if (hit2D.collider != null )
         {
-            Debug.Log(message: $"Hit player {hit2D.transform.name}");
-           IDamageable damageable = hit2D.transform.GetComponent<IDamageable>();
-           damageable?.TakeDamage(damage);
+            IDamageable damageable = hit2D.transform.GetComponent<IDamageable>();
+            damageable?.TakeDamage(damage);
         }
-
     }
 }
