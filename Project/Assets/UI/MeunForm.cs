@@ -4,15 +4,47 @@ using UnityEngine;
 
 public class MeunForm : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //T0D0 Tween
+    [SerializeField] private GameObject masks;
+    [SerializeField] private Button meunButton;
+    [SerializeField] private Button restartButtin;
+    [SerializeField] private Button quitButton;
+
+    private void Awake()
     {
-        
+        masks.SetActive(false);
+
+        meunButton.onClick.AddListener(OnMenuButtonClick);
+        restartButtin.onClick.AddListener(OnRestartButtonClick);
+        quitButton.onClick.AddListener(OnQuitButtonClick);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        GameEvents.GameOver += GameOver;
     }
+
+    private void OnMenuButtonClick() {
+        // change scene
+        SceneManager.LoadScence("Meun");
+    }
+
+    private void OnRestartButtonClick() {
+        SceneManager.LoadScence("Game");
+    }
+
+    private void OnQuitButtonClick() {
+        Application.Quit;
+#if UNITY_EDITOR
+        unityEditor.EditorApplication.isPlaying = false;
+#endif  
+    }
+    private void GameOver() { }
+
+    private void OnDisable()
+    {
+        GameEvents.GameOver -= GameOver;
+    }
+
+
 }
