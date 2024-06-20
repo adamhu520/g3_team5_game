@@ -3,34 +3,6 @@
   "WorkspaceRootPath": "D:\\g3_team5_game\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\testing\\gametesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\testing\\gametesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\enemy\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\enemy\\livingentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\livingentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\wave\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\wave\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\enemy\\woodcreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\woodcreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\animatorhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\animatorhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\g3_team5_game\\Project\\Assets\\sprites\\Guns\\AnimatorHash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\sprites\\Guns\\AnimatorHash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +15,14 @@
       "RelativeMoniker": "D:0:0:{791E55EC-8AFF-784E-2603-216F6332CFAE}|AstarPathfindingProjectEditor.csproj|solutionrelative:assets\\astarpathfindingproject\\editor\\astarupdatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|d:\\g3_team5_game\\project\\assets\\sprites\\testing\\gametesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\testing\\gametesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\wave\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\wave\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\enemy\\beetle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\beetle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,6 +33,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\enemy\\woodcreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\woodcreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\enemy\\livingentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\livingentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\animatorhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\animatorhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|D:\\g3_team5_game\\Project\\assets\\sprites\\enemy\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Beetle.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\Beetle.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Enemy\\Beetle.cs",
@@ -78,12 +78,8 @@
               "IsPinned": true
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GameTesting.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\testing\\GameTesting.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\testing\\GameTesting.cs",
@@ -104,12 +100,15 @@
               "RelativeToolTip": "Assets\\sprites\\wave\\waveManager.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAUwE0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T14:30:46.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T14:30:46.117Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "AnimatorHash.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\AnimatorHash.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\AnimatorHash.cs",
@@ -117,12 +116,11 @@
               "RelativeToolTip": "Assets\\sprites\\AnimatorHash.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:14:09.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:14:09.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Player\\Player.cs",
@@ -134,31 +132,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerController.cs",
               "ToolTip": "D:\\g3_team5_game\\Project\\Assets\\scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:04:04.271Z"
+              "WhenOpened": "2024-06-20T07:04:04.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Bullet.cs",
               "ToolTip": "D:\\g3_team5_game\\Project\\Assets\\scripts\\Bullet.cs",
               "RelativeToolTip": "Assets\\scripts\\Bullet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA0wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:03:54.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:03:54.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "AstarUpdateChecker.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
               "RelativeDocumentMoniker": "Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
@@ -166,22 +164,25 @@
               "RelativeToolTip": "Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
               "ViewState": "AQIAANAAAAAAAAAAAAAywN8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T18:44:37.826Z"
+              "WhenOpened": "2024-06-14T18:44:37.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "AnimatorHash.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Guns\\AnimatorHash.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Guns\\AnimatorHash.cs",
               "ToolTip": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Guns\\AnimatorHash.cs",
               "RelativeToolTip": "Assets\\sprites\\Guns\\AnimatorHash.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:31:43.831Z"
+              "WhenOpened": "2024-06-13T18:31:43.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "wave.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\wave\\wave.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\wave\\wave.cs",
@@ -193,33 +194,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Enemy\\IDamageable.cs",
               "ToolTip": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\IDamageable.cs",
               "RelativeToolTip": "Assets\\sprites\\Enemy\\IDamageable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA+wAIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:06:11.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T18:06:11.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "LivingEntity.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\LivingEntity.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Enemy\\LivingEntity.cs",
               "ToolTip": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\LivingEntity.cs",
               "RelativeToolTip": "Assets\\sprites\\Enemy\\LivingEntity.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAABgAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCIAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:04:44.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T18:04:44.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "WoodCreat.cs",
               "DocumentMoniker": "D:\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\WoodCreat.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Enemy\\WoodCreat.cs",
@@ -227,8 +226,7 @@
               "RelativeToolTip": "Assets\\sprites\\Enemy\\WoodCreat.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:15:53.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T18:15:53.974Z"
             }
           ]
         }
