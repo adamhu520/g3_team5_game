@@ -512,7 +512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &502930298
 Transform:
   m_ObjectHideFlags: 0
@@ -16571,7 +16571,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1993888924
 Transform:
   m_ObjectHideFlags: 0
@@ -16671,10 +16671,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1993888923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12c4e94737f970247a1a41f921b5fe1d, type: 3}
+  m_Script: {fileID: 11500000, guid: b8fcd0516bad58440856fd4f100a5ee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firepoint: {fileID: 1865702001}
+  interval: 0.2
+  bulletPrefab: {fileID: 5297411989598342116, guid: 0c04fb5aa459f8648930d89708df39ae, type: 3}
+  shellPrefab: {fileID: 4535291621442070216, guid: 1d09d4057a4b2fb459e5d2650d7ac948, type: 3}
 --- !u!1 &2047496360
 GameObject:
   m_ObjectHideFlags: 0
@@ -16703,7 +16705,7 @@ Transform:
   m_GameObject: {fileID: 2047496360}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.164, y: -0.157, z: 0}
+  m_LocalPosition: {x: -0.042, y: -0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16793,10 +16795,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2047496360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12c4e94737f970247a1a41f921b5fe1d, type: 3}
+  m_Script: {fileID: 11500000, guid: e615708788567d94c8cc855a5538ce7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firepoint: {fileID: 201506540}
+  interval: 1
+  bulletPrefab: {fileID: 7598361478263004379, guid: de697145eba0d454a92917739575b107, type: 3}
+  shellPrefab: {fileID: 0}
+  rocketNum: 1
+  rocketAngle: 30
 --- !u!1 &2060562139
 GameObject:
   m_ObjectHideFlags: 0
