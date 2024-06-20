@@ -5,14 +5,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 10.0f;
-
+    
     private Vector2 _moveDirection;
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
     private Vector2 mousePos;
     public GameObject[] guns;
     private int gunNum;
-
+    public GameObject damagePrefab;
     void Start()
     {
         _animator = GetComponent<Animator>();
@@ -47,7 +47,11 @@ public class PlayerController : MonoBehaviour
 
         _animator.SetFloat(AnimatorHash.MoveSpeed, Mathf.Abs(_moveDirection.x) + Mathf.Abs(_moveDirection.y));
 
+        if(Input.GetMouseButtonDown(0))
+        {
+            Instantiate(damagePrefab).transform.position = transform.position;
 
+        }
 
     }
 

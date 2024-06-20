@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Xml.Serialization;
 
 public class PopupText : MonoBehaviour
 {
@@ -27,7 +28,15 @@ public class PopupText : MonoBehaviour
 
     public Color normalColor;
     public Color criticalHitColor;
+    [Header("Controller")]
+    public Transform fontTR;
+    public TextMeshProUGUI fontText;
+    public GameObject canvas;
+    [Header("LiftTimeValue")]
 
+    public float lifeTime;//
+    public Vector3 moveTargetV;
+    public Vector3 targetPositon;
     private void Awake()
     {
         _textMeshPro = GetComponent<TextMeshPro>();
@@ -50,8 +59,11 @@ public class PopupText : MonoBehaviour
         _textMeshPro.color = _textColor;
         _disappearTimer = DisappearTimeMax;
     }
-
-    private void Update()
+    private void OnEnable()
+    {
+        StartCoroutine(IEliftOver());
+    }
+    /*private void Update()
     {
         // Move the text up
 
@@ -80,5 +92,21 @@ public class PopupText : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+    }*/
+    public IEnumerator IEliftOver()
+    {
+        float currentTime = 0;
+        Vector3 vStart = fontText.transform.position;
+        Vector3 vScale = fontTR.transform.localScale;
+        while(currentTime<=lifeTime)
+        {
+            currentTime += 0.01f;
+            fontTR.transform.position += (targetPositon*(0.01f/lifeTime));
+            fontText.color = new Color(fontText.color.r, fontText.color.g, fontText.color.b, fontText.color.a - (0.01f/lifeTime));
+            fontTR.transform.localScale =  vScale*(1 - (currentTime / lifeTime));
+            yield return new WaitForSeconds(0.01f);
+        }
+        Destroy(canvas);
     }
+
 }
