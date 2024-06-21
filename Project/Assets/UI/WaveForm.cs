@@ -84,6 +84,7 @@ public class WaveForm : MonoBehaviour
             countDownText.color = new Color(countDownText.color.r, countDownText.color.g, countDownText.color.b, 1 - cH);
             yield return new WaitForSeconds(0.01f);
         }
+        EnemyCreate.instance.CreatWaveEnemy(waveManager.waveNumber);
         gameObject.SetActive(false);
     }
 }
