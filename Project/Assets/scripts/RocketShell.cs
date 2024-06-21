@@ -45,6 +45,10 @@ public class RocketShell : MonoBehaviour
 
         rigidbody.velocity = Vector2.zero;
         StartCoroutine(Push(gameObject, .3f));
+
+        //…À∫¶œµÕ≥
+        IDamageable damageable = other.transform.GetComponent<IDamageable>();
+        damageable?.TakeDamage(10);
     }
 
     IEnumerator Push(GameObject _object, float time)

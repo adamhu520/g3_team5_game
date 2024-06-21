@@ -64,7 +64,6 @@
     <Compile Include="Assets\sprites\wave\waveManager.cs" />
     <Compile Include="Assets\sprites\wave\wave.cs" />
     <Compile Include="Assets\scripts\BulletTracer.cs" />
-    <Compile Include="Assets\scripts\weaponSystem.cs" />
     <Compile Include="Assets\UI\GameOverForm.cs" />
     <Compile Include="Assets\UI\StartPanel.cs" />
     <Compile Include="Assets\scripts\pistol.cs" />

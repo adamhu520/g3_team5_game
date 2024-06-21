@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\assets\\mscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|c:\\users\\\u54C1\u592A\u6781\\onedrive - college of global talents, bitzh\\\u684C\u9762\\123456\\g3_team5_game\\project\\assets\\mscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\mscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\assets\\mscripts\\gamectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\mscripts\\gamectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\assets\\mscripts\\playerhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\mscripts\\playerhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|c:\\users\\\u54C1\u592A\u6781\\onedrive - college of global talents, bitzh\\\u684C\u9762\\123456\\g3_team5_game\\project\\assets\\mscripts\\gamectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\mscripts\\gamectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\assets\\sprites\\enemy\\beetle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\beetle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\assets\\ui\\startpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\Guns\\AnimatorHash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:Assets\\sprites\\Guns\\AnimatorHash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\assets\\sprites\\enemy\\beetle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\enemy\\beetle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\g3_team5_game\\Project\\Assets\\sprites\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -90,13 +90,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "Beetle.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\Beetle.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Enemy\\Beetle.cs",
               "ToolTip": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\Beetle.cs",
               "RelativeToolTip": "Assets\\sprites\\Enemy\\Beetle.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAywDwAAABHAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwDwAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T18:01:25.975Z",
               "IsPinned": true
@@ -111,21 +111,19 @@
               "RelativeToolTip": "Assets\\mScripts\\GameCtrl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:41:37.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T08:41:37.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerHp.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\mScripts\\PlayerHp.cs",
               "RelativeDocumentMoniker": "Assets\\mScripts\\PlayerHp.cs",
               "ToolTip": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\mScripts\\PlayerHp.cs",
               "RelativeToolTip": "Assets\\mScripts\\PlayerHp.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwBoAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:24:28.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T08:24:28.756Z"
             },
             {
               "$type": "Document",
@@ -142,7 +140,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\scripts\\Bullet.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:03:54.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "StartPanel.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\UI\\StartPanel.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\StartPanel.cs",
@@ -154,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PopupText.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\PopupText.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\PopupText.cs",
@@ -176,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LivingEntity.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\LivingEntity.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Enemy\\LivingEntity.cs",
@@ -208,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "waveManager.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\wave\\waveManager.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\wave\\waveManager.cs",
@@ -220,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerController.cs",
@@ -229,18 +239,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T07:04:04.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\scripts\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Bullet.cs",
-              "ToolTip": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\scripts\\Bullet.cs",
-              "RelativeToolTip": "Assets\\scripts\\Bullet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:03:54.48Z"
             },
             {
               "$type": "Document",
@@ -254,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UGuiForm.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\UI\\UGuiForm.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\UGuiForm.cs",
@@ -266,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AstarUpdateChecker.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
               "RelativeDocumentMoniker": "Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
@@ -278,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AnimatorHash.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\Guns\\AnimatorHash.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Guns\\AnimatorHash.cs",
@@ -290,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "wave.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\wave\\wave.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\wave\\wave.cs",
@@ -302,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Enemy\\IDamageable.cs",
@@ -314,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "WoodCreat.cs",
               "DocumentMoniker": "C:\\Users\\\u54C1\u592A\u6781\\OneDrive - College of Global Talents, BITZH\\\u684C\u9762\\123456\\g3_team5_game\\Project\\Assets\\sprites\\Enemy\\WoodCreat.cs",
               "RelativeDocumentMoniker": "Assets\\sprites\\Enemy\\WoodCreat.cs",
