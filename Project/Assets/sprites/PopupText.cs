@@ -23,7 +23,7 @@ public class PopupText : MonoBehaviour
     public Vector3 moveDownVector = new Vector3(x: -0.7f, y: 1, z: 0);
 
     public float disappearSpeed = 3.0f;
-    private const float DisappearTimeMax = 0.2f; // IncreasedÏûÊ§Ê±¼ä for visibility
+    private const float DisappearTimeMax = 0.2f; // Increasedï¿½ï¿½Ê§Ê±ï¿½ï¿½ for visibility
     private float _disappearTimer;
 
     public Color normalColor;
