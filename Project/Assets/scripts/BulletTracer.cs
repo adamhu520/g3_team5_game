@@ -30,4 +30,12 @@ public class BulletTracer : MonoBehaviour
 
         ObjectPool.Instance.PushObject(gameObject);
     }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {       
+        //伤害系统
+        IDamageable damageable = other.transform.GetComponent<IDamageable>();
+        damageable?.TakeDamage(20);
+
+    }
 }

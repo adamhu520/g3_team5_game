@@ -32,5 +32,10 @@ public class Bullet : MonoBehaviour
         exp.transform.position = transform.position;
 
         ObjectPool.Instance.PushObject(gameObject);
+
+        //伤害系统
+        IDamageable damageable = other.transform.GetComponent<IDamageable>();
+        damageable?.TakeDamage(10);
+
     }
 }
