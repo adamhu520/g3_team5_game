@@ -173,4 +173,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lerp: 0.5
   speed: 15
-  explosionPrefab: {fileID: 1892091874380865632, guid: 56d372ee847772c40a23515ae1d02f8e, type: 3}
+  explosionPrefab: {fileID: 1892091874380865632, guid: c5112508bca2c3f4da3da71f735084d1, type: 3}

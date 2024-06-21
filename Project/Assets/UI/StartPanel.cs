@@ -17,6 +17,12 @@ public class StartPanel : MonoBehaviour
         
     }
 
+
+    public void LoadStart ()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void LoadMainGame()
     {
         SceneManager.LoadScene(1);

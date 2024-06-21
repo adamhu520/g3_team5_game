@@ -2067,18 +2067,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 42
+    m_FontSize: 43
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 57
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6E38\u620F\u73A9\u6CD5\u4ECB\u7ECD"
+  m_Text: "\u5730\u7262\u4E4B\u722A\u662F\u4E00\u4E2A\u901A\u5173\u6E38\u620F\n\u6309WAS\u952E\u4E0A\u4E0B\u5DE6\u53F3\u79FB\u52A8
+    \u70B9\u51FB\u9F20\u6807\u5DE6\u952E\u8FDB\u884C\u5C04\u51FB\n\u628A\u6240\u6709\u654C\u4EBA\u6D88\u706D\u6E38\u620F\u901A\u5173\n\u5982\u679C\u4E3B\u89D2\u7684\u8840\u91CF\u4E3A\u5219\u95EF\u5173\u5931\u8D25"
 --- !u!222 &1095040853
 CanvasRenderer:
   m_ObjectHideFlags: 0

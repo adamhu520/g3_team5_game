@@ -31,6 +31,7 @@ public class rocket : Gun
             {
                 bullet.transform.right = Quaternion.AngleAxis(rocketAngle * (i - median) + rocketAngle / 2, Vector3.forward) * direction;
             }
+            bullet.GetComponent<RocketShell>().SetTarget(mousePos);
         }
     }
 }
