@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AnimatorHash1 
+public class _AnimatorHash 
 {
     public static readonly int MoveSpeed = Animator.StringToHash(name: "Move Speed");
     public static readonly int IsShooting = Animator.StringToHash(name: "Is Shooting");
