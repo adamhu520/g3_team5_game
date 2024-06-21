@@ -32,7 +32,7 @@ public class LivingEntity : MonoBehaviour, IDamageable
         Destroy(gameObject);
 
         //À¿ÕˆÃÿ–ß
-        //ParticleSystem ps = Instantiate(original: deathParticle, parent: transform.position, Quaternion.identity);
-       // Destory(ps.gameObject, ps.main.duration);
+        ParticleSystem ps = Instantiate(deathParticle, transform.position, Quaternion.identity);
+        Destroy(ps.gameObject, ps.main.duration);
     }
 }

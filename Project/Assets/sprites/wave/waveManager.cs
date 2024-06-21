@@ -7,9 +7,13 @@ public class waveManager : MonoBehaviour
     [SerializeField] private Transform[] spawnPoints;
     //[SerializeField] private Transform[] LivingEntity playerEntity;
 
+    public static float timeBetweenWaves = 3.0f;
+    public static int waveNumber;
+    public static event System.Action OnNewWave;
     public wave[] waves;
-    private wave _currentWave;
-    private int _currentWaveIndex;
+    [SerializeField] private wave _currentWave;
+    [SerializeField]private int _currentWaveIndex;
+    private bool _isWaveValid = true;
 
 
     private int _enemyRemainingAliveCount;
@@ -17,17 +21,26 @@ public class waveManager : MonoBehaviour
 
     private void Start()
     {
-        if (spawnPoints.Length ==0)
+       /* if (spawnPoints.Length ==0)
         {
             Debug.LogError(message: "Can't find enemy spawn point, please check!");
             return;
-        }
+        }*/
+        
         StartCoroutine(routine: NextWaveCoroutine());
     }
 
     private IEnumerator NextWaveCoroutine()
     {
         _currentWaveIndex++;
+
+        if (_isWaveValid)
+        {
+            waveNumber++;
+            OnNewWave?.Invoke();
+        }
+        yield return new WaitForSeconds(timeBetweenWaves);
+        
         if (_currentWaveIndex -1 < waves.Length)
         {
             _currentWave = waves[_currentWaveIndex - 1];
@@ -41,10 +54,12 @@ public class waveManager : MonoBehaviour
                 beetle.OnDeath += OnEnemyDeath;
                 yield return new WaitForSeconds(_currentWave.timeBetweenSpawn);
             }
+            _isWaveValid = true;
         }
         else
         {
-            _currentWave = null;
+            _currentWaveIndex = 0;
+            _isWaveValid = false;
 
             //ÄÑ¶ÈÌáÉý
             _upgrade += 0.1f;
@@ -59,5 +74,11 @@ public class waveManager : MonoBehaviour
         {
             StartCoroutine(routine: NextWaveCoroutine());
         }
+    }
+
+    private void OnPlayerDeath()
+    {
+        StopCoroutine(routine: NextWaveCoroutine());
+        Debug.Log(message:"Game Over");
     }
 }
