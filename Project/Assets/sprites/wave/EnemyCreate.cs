@@ -24,6 +24,7 @@ public class EnemyCreate : MonoBehaviour
            for(int i =0;i<waveNum[index-1];i++)
             {
                 Instantiate(enemyPrefab[index - 1]).transform.position = refreshPosition[Random.Range(0, refreshPosition.Count)].position;
+                GameCtrl.Instance.ADDdateEnmyCount();
             }
         }else
         {
@@ -31,10 +32,12 @@ public class EnemyCreate : MonoBehaviour
             for (int i = 0; i < waveNum[2]-y; i++)
             {
                 Instantiate(enemyPrefab[0]).transform.position = refreshPosition[Random.Range(0, refreshPosition.Count)].position;
+                GameCtrl.Instance.ADDdateEnmyCount();
             }
             for (int i = 0; i <y; i++)
             {
                 Instantiate(enemyPrefab[1]).transform.position = refreshPosition[Random.Range(0, refreshPosition.Count)].position;
+                GameCtrl.Instance.ADDdateEnmyCount();
             }
         }
     }

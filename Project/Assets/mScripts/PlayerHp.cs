@@ -13,6 +13,8 @@ public class PlayerHp : MonoBehaviour
 
     public Image Hpimg;
     public GameObject FaildWin;
+
+    public GameObject Player;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class PlayerHp : MonoBehaviour
         if (Hpimg.fillAmount==0)
         {
             FaildWin.SetActive(true);
+            Player.SetActive(false);
         }
     }
 

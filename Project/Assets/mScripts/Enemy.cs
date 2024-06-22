@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,9 +9,11 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         EnemyHP = 100;
+        damege = 10;
     }
 
     public int EnemyHP;
+    public int damege;
     // Update is called once per frame
     void Update()
     {
@@ -27,18 +30,24 @@ public class Enemy : MonoBehaviour
     {
         if (o.tag=="Player")
         {
-            PlayerHp.Instance.SetPlayerHp(0.1f);
+            PlayerHp.Instance.SetPlayerHp(0.01f);
         }
 
         if (o.tag == "Bundle")
         {
-            EnemyHP -= 10;
+            EnemyHP -= damege;
 
             if (EnemyHP<=0)
             {
-                GameCtrl.Instance.UPdateEnmyCount();
+              
                 Destroy(this.gameObject);
             }
         }
+    }
+
+
+    private void OnDestroy()
+    {
+        GameCtrl.Instance.UPdateEnmyCount();
     }
 }
